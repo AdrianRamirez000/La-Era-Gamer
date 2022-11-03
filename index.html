@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Era Gamer</title>
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!--Link para CSS-->
     <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body class="body">
@@ -12,9 +20,9 @@
         <nav class="headerNavegacion">
             <h1>La Era Gamer</h1>
             <ul class="navegacionInicio">
-                <li class="listasHeader"><a href="./LaEraGamer/carrito.html" target="_blank">Carrito</a></li>
-                <li class="listasHeader"><a href="./LaEraGamer/inicio-de-sesion.html" target="_blank">Inicio de sesión</a></li>
-                <li class="listasHeader"><a href="./LaEraGamer/registrate.html" target="_blank">Regístrate</a></li>
+                <li class="listasHeader"><a href="./LaEraGamer/carrito.html" class="links" target="_blank">Carrito</a></li>
+                <li class="listasHeader"><a href="./LaEraGamer/inicio-de-sesion.html" class="links" target="_blank">Inicio de sesión</a></li>
+                <li class="listasHeader"><a href="./LaEraGamer/registrate.html" class="links" target="_blank">Regístrate</a></li>
             </ul>
         </nav>
         <nav class="barraBusqueda">
@@ -22,8 +30,29 @@
         </nav>
     </header>
     <main class="main">
-        <div class="imagenIntroduccion">
-            <img src="../imagenes/istockphoto-1324673294-612x612.jpg" alt="imagen de introducción">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/Call-of-Duty-Modern-Warfare-2--940x529.jpg" class="d-block w-100" alt="Call of Duty MW2">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/the-callisto-protocol.jpg" class="d-block w-100" alt="The Callisto Protocol">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/FIFA.jpg" class="d-block w-100" alt="FIFA 2023">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/RESIDENET EVIL.png" class="d-block w-100" alt="Resident Evil 4">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
         </div>
         <nav class="mainPlataformas">
             <ul class="plataformasCuatro">

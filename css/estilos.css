@@ -27,6 +27,10 @@ h1{
 .listasHeader{
     margin-left: 40px;
 }
+.links{
+    text-decoration: none;
+    color: white;
+}
 .barraBusqueda{
     display: flex;
     justify-content: center;
@@ -42,10 +46,8 @@ h1{
     border-style:solid;
     border-width: 5px;
 }
-.imagenIntroduccion{
-    display:flex;
-    justify-content: center;
-    margin: 40px 10px;
+.carousel{
+    padding: 20px;
 }
 .plataformasCuatro{
     display: flex;
@@ -102,11 +104,6 @@ h3{
 }
 .iconos{
     width: 75px;
-}
-button{
-    background-color:darkmagenta;
-    border-radius: 20px;
-    padding: 5px;
 }
 .botones{
     display: flex;
