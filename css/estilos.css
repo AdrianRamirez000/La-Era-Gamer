@@ -27,6 +27,10 @@ h1{
 .listasHeader{
     margin-left: 40px;
 }
+.links{
+    text-decoration: none;
+    color: white;
+}
 .barraBusqueda{
     display: flex;
     justify-content: center;
@@ -42,10 +46,8 @@ h1{
     border-style:solid;
     border-width: 5px;
 }
-.imagenIntroduccion{
-    display:flex;
-    justify-content: center;
-    margin: 40px 10px;
+.carousel{
+    padding: 20px;
 }
 .plataformasCuatro{
     display: flex;
@@ -80,6 +82,17 @@ h2{
     font-size: 31px;
     padding: 50px;
 }
+.col{
+    font-size: 25px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container{
+    background-color: rebeccapurple;
+    width: 2000px;
+}
 footer{
     background-color:rgb(124, 0, 0);
     padding: 20px;
@@ -103,11 +116,6 @@ h3{
 .iconos{
     width: 75px;
 }
-button{
-    background-color:darkmagenta;
-    border-radius: 20px;
-    padding: 5px;
-}
 .botones{
     display: flex;
     margin: 10px;
@@ -125,18 +133,16 @@ button{
     color: white;
 }
 .bodySesion{
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 100%;
-    position: relative;
-} 
-.formulario{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+h2{
+    padding: 20px;
+}
+form{
+    padding: 20px;
+    align-items: center;
 }
 label{
     color:white;
