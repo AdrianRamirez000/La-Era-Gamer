@@ -82,6 +82,17 @@ h2{
     font-size: 31px;
     padding: 50px;
 }
+.col{
+    font-size: 25px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container{
+    background-color: rebeccapurple;
+    width: 2000px;
+}
 footer{
     background-color:rgb(124, 0, 0);
     padding: 20px;
