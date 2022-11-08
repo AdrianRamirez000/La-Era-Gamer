@@ -15,14 +15,14 @@
     <!--Link para CSS-->
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
-<body class="body">
+<body class="body container-fluid">
     <header class="header">
-        <nav class="headerNavegacion">
+        <nav class="headerNavegacion text-center">
             <h1>La Era Gamer</h1>
             <ul class="navegacionInicio">
-                <li class="listasHeader"><a href="./LaEraGamer/carrito.html" class="links" target="_blank">Carrito</a></li>
-                <li class="listasHeader"><a href="./LaEraGamer/inicio-de-sesion.html" class="links" target="_blank">Inicio de sesión</a></li>
-                <li class="listasHeader"><a href="./LaEraGamer/registrate.html" class="links" target="_blank">Regístrate</a></li>
+                <div class="listasHeader"><a href="./LaEraGamer/carrito.html" class="links" target="_blank">Carrito</a></div>
+                <div class="listasHeader"><a href="./LaEraGamer/inicio-de-sesion.html" class="links" target="_blank">Inicio de sesión</a></div>
+                <div class="listasHeader"><a href="./LaEraGamer/registrate.html" class="links" target="_blank">Regístrate</a></div>
             </ul>
         </nav>
         <nav class="barraBusqueda">
@@ -54,15 +54,15 @@
               <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <nav class="mainPlataformas">
-            <ul class="plataformasCuatro">
-                <li class="plataformas"><a href=""></a>Xbox</li>
-                <li class="plataformas"><a href=""></a>Play Station</li>
-                <li class="plataformas"><a href=""></a>PC</li>
-                <li class="plataformas"><a href=""></a>Nintendo</li>
-            </ul>
+        <nav class="text-center">
+          <ul class="row plataformasCuatro">
+            <li class="col-12 col-lg-3"><a href=""></a>Xbox</li>
+            <li class="col-12 col-lg-3"><a href=""></a>Play Station</li>
+            <li class="col-12 col-lg-3"><a href=""></a>PC</li>
+            <li class="col-12 col-lg-3"><a href=""></a>Nintendo</li>
+          </ul>
         </nav>
-            <h2>Próximamente...</h2>
+        <h2>Próximamente...</h2>
         <article class="row">
           <div class="col">
             <img class="juego" src="./imagenes/Dead-Space-Remake.webp" alt="Dead Space">
@@ -89,15 +89,15 @@
         </article>
     </main>
     <footer class="footer">
-        <nav class="foooterNavegacion">
-            <h3>Únete a nosotros desde nuestras redes sociales</h3>
-            <div class="redes">
-                <a href="https://es-la.facebook.com/" class="redSocial" target="_blank"><img class="iconos" src="./imagenes/Facebook.png" alt="Facebook"></a>
-                <a href="https://www.instagram.com/" class="redSocial" target="_blank"><img  class="iconos" src="./imagenes/Instagram1.png" alt="Instagram"></a>
-                <a href="https://www.twitch.tv/" class="redSocial" target="_blank"><img class="iconos" src="./imagenes/Twitch1.png" alt="Twitch"></a>
-                <a href="https://www.youtube.com/" class="redSocial" target="_blank"><img class="iconos" src="./imagenes/Youtube.png" alt="Youtube"></a>
-            </div>
+      <h3>Únete a nosotros desde nuestras redes sociales</h3>
+      <div class="container text-center">
+        <nav class="row-cols-4">
+          <a href="https://es-la.facebook.com/" class="redSocial" target="_blank"><img class="iconos" src="./imagenes/Facebook.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/" class="redSocial" target="_blank"><img  class="iconos" src="./imagenes/Instagram1.png" alt="Instagram"></a>
+          <a href="https://www.twitch.tv/" class="redSocial" target="_blank"><img class="iconos" src="./imagenes/Twitch1.png" alt="Twitch"></a>
+          <a href="https://www.youtube.com/" class="redSocial" target="_blank"><img class="iconos" src="./imagenes/Youtube.png" alt="Youtube"></a>
         </nav>
+      </div>
     </footer>
 </body>
 </html>
